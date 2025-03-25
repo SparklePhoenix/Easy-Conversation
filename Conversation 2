@@ -1,0 +1,29 @@
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner (System.in);
+
+        String A;
+        String B;
+        String C;
+        String D;
+
+        System.out.println("Hi! What is your name?");
+        A = sc.next();
+        System.out.println("Nice to meet you " + A + "!");
+
+        System.out.println("What is your favorite color?");
+        B = sc.next();
+        System.out.println(B + " is my favorite color too!");
+
+        System.out.println("Do you have a pet?");
+        C = sc.next();
+
+        if(C.equals("yes"))
+            System.out.println("Me too!");
+
+        else{
+            System.out.println("That's interesting.");
+        }
+    }
+}
